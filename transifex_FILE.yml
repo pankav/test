@@ -1,0 +1,13 @@
+git:
+ filters:    
+  - filter_type: file
+    file_format: GITHUBMARKDOWN
+    source_language: en
+    source_file: docs/index.md
+    translation_files_expression: 'docs/index.<lang>.md'
+    
+  - filter_type: file
+    file_format: GITHUBMARKDOWN
+    source_language: en
+    source_file: docs/books/index.md
+    translation_files_expression: 'docs/books/index.<lang>.md'    
