@@ -9,5 +9,11 @@ git:
   - filter_type: dir
     file_format: GITHUBMARKDOWN
     source_language: en
-    source_file: docs/books/index.md
-    translation_files_expression: 'docs/books/index.<lang>.md'    
+    source_file: docs/books/en/index.md
+    translation_files_expression: 'docs/books/<lang>/'    
+    
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_language: en
+    source_file: docs/root/en/index.md
+    translation_files_expression: 'docs/root/<lang>/'
