@@ -10,12 +10,12 @@ git:
     file_format: GITHUBMARKDOWN
     source_file_extension: md
     source_language: en
-    source_file_dir: docs/books/en/index.md
+    source_file_dir: docs/books/en/
     translation_files_expression: 'docs/books/<lang>/'    
     
   - filter_type: dir
     file_format: GITHUBMARKDOWN
     source_file_extension: md
     source_language: en
-    source_file_dir: docs/root/en/index.md
+    source_file_dir: docs/root/en/
     translation_files_expression: 'docs/root/<lang>/'   
