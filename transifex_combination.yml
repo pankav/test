@@ -5,8 +5,17 @@ git:
     source_language: en
     source_file: docs/index.md
     translation_files_expression: 'docs/index.<lang>.md'
+    
   - filter_type: dir
     file_format: GITHUBMARKDOWN
+    source_file_extension: md
     source_language: en
-    source_file: docs/books/en/index.md
-    translation_files_expression: 'docs/books/<lang>/'     
+    source_file_dir: docs/books/en/index.md
+    translation_files_expression: 'docs/books/<lang>/'    
+    
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: en
+    source_file_dir: docs/root/en/index.md
+    translation_files_expression: 'docs/root/<lang>/'   
