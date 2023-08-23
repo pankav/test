@@ -5,3 +5,8 @@ git:
     source_file: txcli_testxml_en.xml
     source_language: en
     translation_files_expression: 'Translations/txcli_testxml_<lang>.xml'
+  - filter_type: file
+    file_format: GITHUBMARKDOWN
+    source_file: docs/qa-manual_2.md
+    source_language: ru
+    translation_files_expression: 'Translations/qa-manual_2_<lang>.md'
